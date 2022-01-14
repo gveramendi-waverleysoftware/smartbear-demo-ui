@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:3000/users/";
+const url = "http://smart-LoadB-C9OS8SWRFGUW-2ad6b9e4e4391bc3.elb.us-east-1.amazonaws.com:3000/users/";
 
 export  function getAll () {
     return axios.get(url);
